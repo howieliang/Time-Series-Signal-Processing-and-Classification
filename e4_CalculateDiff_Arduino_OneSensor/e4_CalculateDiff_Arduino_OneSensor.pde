@@ -1,5 +1,5 @@
 //*********************************************
-// Time-Series Signal Processing
+// Time-Series Signal Processing and Classification
 // e4_CalculateDiff_Arduino_OneSensor
 // Rong-Hao Liang: r.liang@tue.nl
 //*********************************************

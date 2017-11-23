@@ -86,7 +86,7 @@ void draw() {
 
   pushStyle();
   fill(0);
-  textSize(18);
+  textSize(16);
   text("Activation Threshold: "+activationThld, 20, 40);
   for (int i = 0; i < sensorNum; i++) {
     text("["+i+"] M: "+windowM[i]+", SD: "+windowSD[i]+", Max: "+windowMax[i]+", Min: "+windowMin[i], 20, 70+i*30);

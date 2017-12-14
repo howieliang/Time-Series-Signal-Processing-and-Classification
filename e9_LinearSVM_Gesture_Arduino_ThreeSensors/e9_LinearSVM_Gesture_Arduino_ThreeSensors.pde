@@ -32,7 +32,7 @@ float[][] diffArray = new float[sensorNum][dataNum]; //diff calculation: substra
 float[] modeArray = new float[dataNum]; //To show activated or not
 int activationThld = 50; //The diff threshold of activiation
 
-int windowSize = 50; //The size of data window
+int windowSize = 200; //The size of data window
 float[][] windowArray = new float[sensorNum][windowSize]; //data window collection
 boolean b_sampling = false; //flag to keep data collection non-preemptive
 int sampleCnt = 0; //counter of samples

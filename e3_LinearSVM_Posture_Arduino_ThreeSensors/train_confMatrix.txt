@@ -5,11 +5,11 @@ C:64.0
 
 Confusion Matrix:
 	[0]	[1]	[2]	[3]	Total	
-[0]	124	0	0	0	124	
-[1]	0	104	0	0	104	
-[2]	0	0	100	0	100	
-[3]	0	0	0	117	117	
-Total	124	104	100	117	
-correct/tested = 445/445
+[0]	292	0	0	0	292	
+[1]	0	448	0	0	448	
+[2]	0	0	449	0	449	
+[3]	0	0	0	307	307	
+Total	292	448	449	307	
+correct/tested = 1496/1496
 overall accuracy = 100.0 %
-time elapsed: 0.13 (s)
+time elapsed: 0.258 (s)

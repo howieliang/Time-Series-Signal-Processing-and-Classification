@@ -1,17 +1,18 @@
-#define PIN_NUM 5
+#define PIN_NUM 3
 int  data[PIN_NUM];
 char dataID[PIN_NUM] = {'A','B','C'};
 int  pinID[PIN_NUM]  = {A0,A1,A2};
 
-long timer = millis();
+long timer = micros();
 
 void setup() {
   Serial.begin(115200); 
 }
 
 void loop() {
-  if ((millis() - timer) > 10) {
-    timer = millis();
+  if ((micros() - timer) >= 2000) {
+//    Serial.println(micros() - timer);
+    timer = micros();
     for (int i = 0 ; i < PIN_NUM ; i++) {
       data[i] = analogRead(pinID[i]);
       sendDataToProcessing(dataID[i], data[i]);

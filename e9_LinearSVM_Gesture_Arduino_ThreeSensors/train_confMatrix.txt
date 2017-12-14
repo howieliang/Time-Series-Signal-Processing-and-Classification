@@ -4,12 +4,10 @@ C:64.0
 5-Fold Cross Validation
 
 Confusion Matrix:
-	[0]	[1]	[2]	[3]	Total	
-[0]	4	1	0	0	5	
-[1]	0	5	0	0	5	
-[2]	0	0	5	0	5	
-[3]	0	0	0	5	5	
-Total	4	6	5	5	
-correct/tested = 19/20
-overall accuracy = 95.0 %
-time elapsed: 0.031 (s)
+	[0]	[1]	Total	
+[0]	5	1	6	
+[1]	0	5	5	
+Total	5	6	
+correct/tested = 10/11
+overall accuracy = 90.9090909090909 %
+time elapsed: 0.005 (s)

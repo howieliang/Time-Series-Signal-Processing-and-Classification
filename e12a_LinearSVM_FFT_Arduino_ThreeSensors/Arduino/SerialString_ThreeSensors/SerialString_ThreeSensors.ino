@@ -1,4 +1,4 @@
-#define PIN_NUM 5
+#define PIN_NUM 3
 int  data[PIN_NUM];
 char dataID[PIN_NUM] = {'A','B','C'};
 int  pinID[PIN_NUM]  = {A0,A1,A2};

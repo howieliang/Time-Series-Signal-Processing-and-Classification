@@ -50,6 +50,7 @@ void setup() {
     modeArray[i] = -1;
   }
 
+  //ezFFT(number of samples, sampleRate)
   for (int i = 0; i < sensorNum; i++) {
     fft[i] = new ezFFT(128, 500);
   }

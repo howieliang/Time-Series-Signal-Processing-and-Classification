@@ -17,7 +17,7 @@ class ezFFT {
   int colmax = 500;
   int rowmax = 500;
 
-  ezFFT(float sampleRate, int _fftSize) {
+  ezFFT(int _fftSize, float sampleRate) {
     fftSize = _fftSize;
     fft = new FFT( fftSize, sampleRate );
     fft.window(FFT.NONE);

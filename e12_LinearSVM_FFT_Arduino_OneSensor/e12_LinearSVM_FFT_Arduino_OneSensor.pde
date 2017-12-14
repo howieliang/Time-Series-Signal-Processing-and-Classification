@@ -51,7 +51,7 @@ void setup() {
   }
 
   for (int i = 0; i < sensorNum; i++) {
-    fft[i] = new ezFFT(500, 128);
+    fft[i] = new ezFFT(128, 500);
   }
   
   d = fft[0].getSpecSize()-NUM_DC;

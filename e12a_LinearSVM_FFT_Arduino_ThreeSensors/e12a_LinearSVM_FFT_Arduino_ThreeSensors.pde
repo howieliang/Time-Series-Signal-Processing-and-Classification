@@ -51,11 +51,11 @@ void setup() {
     modeArray[i] = -1;
   }
 
-  //ezFFT(sampleRate, number_of_samples);
+  //ezFFT(number_of_samples, sample rate);
   for (int i = 0; i < sensorNum; i++) {
-    fft[i] = new ezFFT(500, 128);
+    fft[i] = new ezFFT(128, 500);
   }
-  fftMerged = new ezFFT(500, 128);
+  fftMerged = new ezFFT(128, 500);
 
   d = fftMerged.getSpecSize()-NUM_DC;
   for (int i = 0; i < sensorNum; i++) {
